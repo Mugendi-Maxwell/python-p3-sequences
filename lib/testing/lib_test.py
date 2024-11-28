@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-
-from sequences import print_fibonacci
-
 import io
-import sys
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
+from sequences import print_fibonacci
 
 class TestPrintFibonacci:
     '''function print_fibonacci()'''
